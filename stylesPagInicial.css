@@ -1,0 +1,15 @@
+/* Desktop - Tela home */
+body{
+    background-color: #FFFADA;
+}
+nav{
+    background-color: cadetblue;
+    align-items:center;
+    position: relative;
+    width: 1800px;
+    height: 100px;
+}
+#pesquisa{
+    cursor: pointer;
+    
+}
