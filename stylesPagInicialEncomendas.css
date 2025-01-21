@@ -5,37 +5,34 @@ body{
 }
 nav{
     background-color: cadetblue;
-    align-items:center;
-    position: relative;
     width: 100%;
-    height: 100px;
+    height: 90px;
+    position:sticky;
+    display: flex;
 }
 #divBusca{
-    width: 265px;
-    height: 32px;
+    width: 325px;
+    height: 30px;
     border-radius: 10px;
     background-color: lightgrey;
     border: slategray 1px;
+    margin: 20px 10px 5px 10px;
 }
 #pesquisa{
     cursor: pointer;
     border: none;
-    height: 32px;
+    height: 30px;
     border-radius:0 7px 7px 0;
     width: 70px;
     float: left;
 }
 #inputBusca{
     border-radius: 5px;
-    width: 191px;
+    width: 251px;
     border: none;
-    height: 32px;
+    height: 30px;
     background-color: transparent;
     float: left;
-}
-.navDireita{
-}
-.navEsquerda{
 }
 button{
     background-color:lightslategrey;
@@ -48,13 +45,14 @@ button{
     width: 32px;
     height: 32px;
     border-radius: 50%;
-
+    margin: 20px 10px 5px 10px;
 }
 img{
     padding: 20px;
     height: 200px;
     width: 200px;
 }
+
 div{
     width: 320px;
     display: inline-block;
