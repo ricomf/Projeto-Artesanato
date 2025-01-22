@@ -10,8 +10,11 @@ nav{
     position:sticky;
     display: flex;
 }
+h3{
+    margin-left: 25px;
+}
 #divBusca{
-    width: 325px;
+    width: 485px;
     height: 30px;
     border-radius: 10px;
     background-color: lightgrey;
@@ -28,7 +31,7 @@ nav{
 }
 #inputBusca{
     border-radius: 5px;
-    width: 251px;
+    width: 411px;
     border: none;
     height: 30px;
     background-color: transparent;
@@ -49,11 +52,24 @@ button{
 }
 img{
     padding: 20px;
-    height: 200px;
-    width: 200px;
+    height: 220px;
+    width: 220px;
 }
 
 div{
-    width: 320px;
+    width: 260px;
     display: inline-block;
+    margin-top: 50px;
+    margin-right: 65px;
+    background-color:darkcyan;
+}
+#Encomenda{
+    margin: 20px;
+    position: relative;
+    bottom: 550px;
+}
+.botoesCategoria{
+    width: 135px;
+    font-size: 20px;
+    margin-left: 65px;
 }
