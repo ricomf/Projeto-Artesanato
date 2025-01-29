@@ -9,9 +9,15 @@ nav{
     height: 90px;
     position:sticky;
     display: flex;
+    flex-flow: row wrap;
+    justify-content:space-evenly;
 }
 h3{
     margin-left: 25px;
+}
+p{
+    font-size: 15px;    
+    text-align: center;
 }
 #divBusca{
     width: 485px;
@@ -38,11 +44,14 @@ h3{
     float: left;
 }
 button{
-    background-color:lightslategrey;
+    background-color:thistle;
     border: thin;
     width: 120px;
     font-weight: bold;
     cursor: pointer;
+}
+button:hover{
+    background-color:darkturquoise;
 }
 .abaNav{
     width: 32px;
@@ -63,12 +72,22 @@ div{
     background-color:darkcyan;
 }
 #Encomenda{
-    margin: 20px;
+    margin: 15px;
     position: relative;
-    bottom: 550px;
+    bottom: 600px;
+    border-radius: 10px;
+    font-size: 19px;
+    width: 140px;
 }
 .botoesCategoria{
     width: 135px;
-    font-size: 20px;
+    font-size: 19px;
     margin-left: 65px;
+    border-radius: 0 20px 0 20px;
+}
+footer{
+    display: flex;
+    flex-flow: row wrap;
+    background-color: aquamarine;
+    justify-content: space-evenly;
 }
