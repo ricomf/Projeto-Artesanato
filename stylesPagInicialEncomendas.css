@@ -1,0 +1,93 @@
+/* Desktop - Tela home */
+body{
+    background-color: #FFFADA;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav{
+    background-color: cadetblue;
+    width: 100%;
+    height: 90px;
+    position:sticky;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:space-evenly;
+}
+h3{
+    margin-left: 25px;
+}
+p{
+    font-size: 15px;    
+    text-align: center;
+}
+#divBusca{
+    width: 485px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: lightgrey;
+    border: slategray 1px;
+    margin: 20px 10px 5px 10px;
+}
+#pesquisa{
+    cursor: pointer;
+    border: none;
+    height: 30px;
+    border-radius:0 7px 7px 0;
+    width: 70px;
+    float: left;
+}
+#inputBusca{
+    border-radius: 5px;
+    width: 411px;
+    border: none;
+    height: 30px;
+    background-color: transparent;
+    float: left;
+}
+button{
+    background-color:thistle;
+    border: thin;
+    width: 120px;
+    font-weight: bold;
+    cursor: pointer;
+}
+button:hover{
+    background-color:darkturquoise;
+}
+.abaNav{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin: 20px 10px 5px 10px;
+}
+img{
+    padding: 20px;
+    height: 220px;
+    width: 220px;
+}
+div{
+    width: 260px;
+    display: inline-block;
+    margin-top: 50px;
+    margin-right: 65px;
+    background-color:darkcyan;
+}
+#Encomenda{
+    margin: 15px;
+    position: relative;
+    bottom: 600px;
+    border-radius: 10px;
+    font-size: 19px;
+    width: 140px;
+}
+.botoesCategoria{
+    width: 135px;
+    font-size: 19px;
+    margin-left: 65px;
+    border-radius: 0 20px 0 20px;
+}
+footer{
+    display: flex;
+    flex-flow: row wrap;
+    background-color: aquamarine;
+    justify-content: space-evenly;
+}
